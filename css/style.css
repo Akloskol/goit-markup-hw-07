@@ -470,12 +470,7 @@ img {
             margin-right: 80px;
         }
     }
-.container-footer-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 72px 24px;
-    max-width: 530px;
-}
+
 
     .section-mr{
         background-color: var(--main-ag-color);
@@ -748,7 +743,12 @@ img {
                 margin-right: 120px;
                 
             }
-        
+        .container-footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    max-width: 530px;
+}
         
 
         .logo-text {
