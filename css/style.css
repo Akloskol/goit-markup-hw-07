@@ -450,8 +450,8 @@ img {
         .icon-container{
             display: none;
         }
-        .section-md-information{ 
-        }
+        /* .section-md-information{ 
+        } */
         .name{
             font-weight: 700;
             font-size: 36px;
