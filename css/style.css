@@ -391,17 +391,7 @@ img {
             gap: 72px 24px;
         }
 
-        .rml{
-            background-color: var(--main-bg-color);
-            width: calc((100% - 72px) / 4);
-            border-radius: 0px 0px 4px 4px;
-            box-shadow: rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
-                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                    0px 1px 1px rgba(46, 47, 66, 0.16),
-                    0px 2px 1px rgba(46, 47, 66, 0.08);
-        }
+        
         .section-md-information{
             width: 264px; 
         }
@@ -462,7 +452,7 @@ img {
         }
     }
 
-    @media srceen and (max-width: 1158px){
+    @media srceen and (min-width: 1158px){
         .logo-and-paragraph {
             margin-right: 120px;
         }
@@ -470,6 +460,20 @@ img {
             margin-right: 80px;
         }
     }
+
+        /* Section-rml 4 */
+        .rml {
+            background-color: var(--main-bg-color);
+            width: calc((100% - 72px) / 4);
+            border-radius: 0px 0px 4px 4px;
+            box-shadow: rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+        }
+
 
 
     .section-mr{
