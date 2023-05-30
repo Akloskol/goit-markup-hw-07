@@ -270,11 +270,10 @@ img {
         }
     
         .specialization {
-            font-weight: 700;
-            font-size: 36px;
+            font-weight: 500;
+            font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            font-weight: 500;
         }
     
         /* Section-3 */
@@ -1156,6 +1155,7 @@ img {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
+            
         }
     
         /* Section-3 */
@@ -1447,11 +1447,9 @@ img {
             padding: 100px 0;
         }
     
-         .container-footer-wrapper {
-        flex-wrap: wrap;
-        gap: 72px 24px;
-        max-width: 530px;
-    }
+        .container-footer-wrapper {
+            display: flex;
+        }
     
         .container-footer {
             display: flex;
@@ -1824,27 +1822,27 @@ img {
         font-weight: 700;
         font-size: 36px;
     }
-    
-    .specialization {
-        font-size: 500;            
+    .specialization{
+        font-weight: 500;
     }
-   
-    
-
 }
 
 /* Desktop */
 @media screen and (max-width:1158px) {
-    .section-md-information{
-        width: 264px;
-    }  
+        .container-footer-wrapper{
+            flex-wrap: wrap;
+            gap: 72px 24px;
+            max-width: 530px;
+        }
 
     .subscribe-form-input {
-            width: 264px;
             height: 40px;
             border-radius: 4px;
             padding-left: 25px;
             
+        }
+        .section-md-information{
+            width: 264px;
         }
 
 
